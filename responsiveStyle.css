@@ -1,0 +1,204 @@
+@media only screen and (max-width: 900px) {
+    header{
+        background-image: url(images/bg-hero-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        min-height: 100vh;
+        background-color: hsl(193, 100%, 96%);
+    }
+    
+    nav{
+        padding: 2rem 1rem;
+    }
+
+    nav img{
+        width: auto;
+        height: 1.5rem;
+    }
+
+    nav button{
+        font-size: 0.75rem;
+        width: 8rem;
+    }
+    
+    .hero{
+        flex-direction: column;
+    }
+
+    .heroContent{
+        align-items: center;
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .heroContent h1{
+        padding-right: 0;
+        font-size: 1.8rem;
+    }
+
+    .heroContent button{
+        margin-bottom: 3rem;
+    }
+
+    .hero img{
+        max-width: 18rem;
+        height: auto;
+        padding-bottom: 2rem;
+    }
+
+    .content{
+        margin: 7rem 2rem 0rem 2rem;
+    }
+
+    .content-box1, .content-box2, .content-box3{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .box-content{
+        text-align: center;
+        align-items: center;
+        order: 1;
+        min-height: 15rem;
+    }
+
+    .content-box1 .box-content, .content-box3 .box-content{
+        margin: 0;
+        width: 14rem;
+    }
+
+    .content-box1 img, .content-box2 img,.content-box3 img{
+        margin: 1.5rem 0rem 0rem 0rem;
+        width: 14rem;
+    }
+
+    .content-box2 .box-content{
+        margin: 0;
+        width: 14rem;
+    }
+
+    .subscription-cta-box{
+        min-width: 16rem;
+        margin-top: 0;
+    }
+    
+    .subscription-cta-box h3{
+        font-size: 1.4rem;
+        text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .subscription-cta-box button{
+        width: 14rem;
+    }
+
+    footer{
+        padding: 10rem 2rem 0rem 2rem;
+    }
+
+    .footer-mid{
+        grid-template-columns: 100%;
+    }
+
+    .footer-nav1{
+        margin: 2.5rem 0rem;
+        align-items: top;
+        justify-content: start;
+    }
+
+    .footer-nav2{
+        margin-bottom: 2.5rem;
+    }
+
+    .social-media-icons{
+        justify-content: center;
+    }
+
+    .copyright-info{
+        justify-content: center;
+    }
+
+    footer .attribution{
+        height: 70px;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1100px) {
+    .hero{
+        flex-direction: column;
+    }
+
+    .heroContent{
+        align-items: center;
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .heroContent h1{
+        padding-right: 0;
+    }
+
+    .heroContent button{
+        margin-bottom: 3rem;
+    }
+
+    .hero img{
+        max-width: 30rem;
+        height: auto;
+        padding-bottom: 2rem;
+    }
+
+    .content-box1, .content-box2, .content-box3{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .box-content{
+        text-align: center;
+        align-items: center;
+        order: 1;
+        min-height: 15rem;
+    }
+
+    .content-box1 .box-content, .content-box3 .box-content{
+        margin: 0;
+    }
+
+    .content-box1 img, .content-box2 img,.content-box3 img{
+        margin: 1.5rem 0rem 0rem 0rem;
+    }
+
+    .content-box2 .box-content{
+        margin: 0;
+    }
+
+    .subscription-cta-box{
+        min-width: 35rem;
+    } 
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1250px){
+    .hero img{
+        width: 30rem;
+        height: auto;
+    }
+
+    .content-box1 img, .content-box2 img, .content-box3 img{
+        width: 20rem;
+    }
+}
+
+@media only screen and (min-width: 1250px) {
+    .hero img{
+        width: 38rem;
+        height: auto;
+    }
+
+    .content-box1 img, .content-box2 img, .content-box3 img{
+        width: 25rem;
+    }
+} 
